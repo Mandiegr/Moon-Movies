@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "../views/Movies.module.css"
+import styles from "../views/Styles/Movies.module.css"
 export function MovieItem({movie}) {
     return (
         <div className="">
