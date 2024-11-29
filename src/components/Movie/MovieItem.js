@@ -8,7 +8,7 @@ export function MovieItem({ movie }) {
                 <img 
                   src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} 
                   alt={movie.title} 
-                  style={{ width: '100%', borderRadius: '5px 5px 0 0' }} // Fazendo a imagem ocupar toda a largura
+                  style={{ width: '100%', borderRadius: '5px 5px 0 0' }} 
                 />
             )}
             <h3>{movie.title}</h3>

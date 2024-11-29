@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const MovieWrapper = styled.div`
   width: 200px;
-  margin-right: 20px;  
   margin-bottom: 50px;
   border-radius: 5px;
   text-align: center; 
