@@ -20,7 +20,18 @@ export const routes =  createBrowserRouter([
                 path:"/movies",
                 element: <Movies/>
             },
-         
+            {
+                path:"/movies/:id",
+                element: <MovieDetails/>
+            },
+
+            {
+                path: "/category/:category/:genre", 
+                element: <Genre />,
+            },
+            
+            
+           
         ]
     }
 ])
