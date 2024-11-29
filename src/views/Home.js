@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useMovies } from "../hooks/useMovie";
-import { MovieItem } from "../components/MovieItem";
+import { MovieItem } from "../components/Movie/MovieItem";
 import { Loading } from "../components/Loading/loading";
 
 import "slick-carousel/slick/slick.css";

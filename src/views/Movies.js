@@ -4,7 +4,7 @@ import {
   MoviesList,
   StyledMovieItem,
 } from "./Styles/movies.styles";
-import { MovieItem } from "../components/MovieItem";
+import { MovieItem } from "../components/Movie/MovieItem";
 import { useMovies } from "../hooks/useMovie";
 
 export function Movies() {
